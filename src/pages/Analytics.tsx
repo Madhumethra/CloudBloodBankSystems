@@ -33,7 +33,7 @@ const Analytics = () => {
           <div className="h-72">
             <ResponsiveContainer width="100%" height="100%">
               <PieChart>
-                <Pie data={bloodGroupData} cx="50%" cy="50%" outerRadius={100} dataKey="units" label={({ name, units }) => `${name}: ${units}`} labelLine={false}>
+                <Pie data={bloodGroupData} cx="50%" cy="50%" outerRadius={100} dataKey="units" label={({ name, value }) => `${name}: ${value}`} labelLine={false}>
                   {bloodGroupData.map((_, i) => <Cell key={i} fill={COLORS[i % COLORS.length]} />)}
                 </Pie>
                 <Tooltip />

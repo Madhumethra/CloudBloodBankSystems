@@ -110,7 +110,7 @@ Cognito (Auth)
 
 ---
 
-### 3. Setup Authentication
+###  Setup Authentication
 
 * Create Cognito User Pool
 * Configure sign-up & login
@@ -118,7 +118,7 @@ Cognito (Auth)
 
 ---
 
-### 4. Configure S3 (Validation)
+###  Configure S3 (Validation)
 
 * Create S3 bucket
 * Upload validation files
@@ -126,7 +126,7 @@ Cognito (Auth)
 
 ---
 
-### 5. Setup IAM Roles
+###  Setup IAM Roles
 
 * Assign permissions:
 
@@ -136,7 +136,7 @@ Cognito (Auth)
 
 ---
 
-### 6. Enable Encryption
+###  Enable Encryption
 
 * Configure KMS keys
 * Encrypt sensitive data
